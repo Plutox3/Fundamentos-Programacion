@@ -1,5 +1,13 @@
 public class Felizmain17161056Java {
   
+    public static void main(String[] args) 
+{ 
+    int n = Integer.parseInt(JOptionPane.showInputDialog("")); 
+    if (sinumerofeliz(n)) 
+        System.out.println(1); 
+    else
+        System.out.println(0); 
+} 
 
 static int nuevasumacuadrados(int n) 
 { 
@@ -34,12 +42,5 @@ static boolean sinumerofeliz(int n)
 } 
    
  
-public static void main(String[] args) 
-{ 
-    int n = Integer.parseInt(args[0]); 
-    if (sinumerofeliz(n)) 
-        System.out.println(1); 
-    else
-        System.out.println(0); 
-} 
+
 } 
