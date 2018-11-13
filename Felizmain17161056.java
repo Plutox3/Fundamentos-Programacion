@@ -2,7 +2,7 @@ public class Felizmain17161056Java {
   
     public static void main(String[] args) 
 { 
-    int n = Integer.parseInt(JOptionPane.showInputDialog("")); 
+    int n = Integer.parseInt(args[0]); 
     if (sinumerofeliz(n)) 
         System.out.println(1); 
     else
