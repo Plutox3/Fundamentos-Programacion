@@ -1,0 +1,25 @@
+import javax.swing.JOptionPane;
+
+public class Prueba6789main17161056 {
+
+    public static void main(String[] args) { 
+        int n=Integer.parseInt(args[0]);
+        while(n!=1){
+           int suma=0;
+           while(suma<1){               
+               int d = n%10;
+               if (n>=10){n = n/10;}
+               suma = (n*n)+(d*d);
+       
+           }
+           n=suma;
+           if(n==89){
+           break;}
+           if(n==37){
+           break;}
+        }
+        if(n==(1)){System.out.println(n);}
+        if(n!=(1)){System.out.println(0);}
+    }
+}
+
