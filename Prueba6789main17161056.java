@@ -22,4 +22,3 @@ public class Prueba6789main17161056 {
         if(n!=(1)){System.out.println(0);}
     }
 }
-
