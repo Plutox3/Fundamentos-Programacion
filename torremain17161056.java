@@ -55,8 +55,8 @@ public class torremain17161056 {
       System.out.print("\n");
       System.out.print("\n");
 
-      int fila_movimiento=Integer.parseInt(args]);
-      int columna_movimiento =Integer.parseInt(args[3+(veces*2)]);
+      int fila_movimiento=Integer.parseInt(args[0]);
+      int columna_movimiento =Integer.parseInt(args[0]);
 
 
       System.out.println("tablero["+fila_caballo+"+"+fila_movimiento+"]["+columna_caballo+"+"+columna_movimiento+"]"+tablero[fila_caballo+fila_movimiento][columna_caballo+columna_movimiento]);
